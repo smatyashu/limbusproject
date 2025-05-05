@@ -1,17 +1,21 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(images/bodybg.jpeg);
+    background-image: url(images/bodybg2.png);
+    background-size: cover;
 }
 
 .container_header {
     color: #e1ae05;
     text-shadow: 2px 2px 4px #e5b005;
-    margin-right: 3px;
-    margin-left: 0px
+    margin-top: 2rem;
 }
 
 .container {
+    border-radius: 5px;
+    padding-top: 2em;
+    width: 80%;
     background-color: #1f1f1f;
+    padding-bottom: 1rem;
 }
 
 h1 {
@@ -39,13 +43,111 @@ p {
 }
 
 .logo {
-    display: flex;
-    align-items: left;
+    margin-top: 0.5rem;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
     width: 6rem;
+
 }
 
 ul {
     display: flex;
     justify-content: center;
     list-style: none;
+}
+
+header {
+
+    margin: 1rem;
+    background-size: 70%;
+    background-color: rgba(31, 31, 31, 0.9);
+    border-radius: 7px;
+    text-align: center;
+    
+}
+
+.mocskos {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.nav-link{
+    background-color: rgba(31, 31, 31, 0.9);
+    margin: 0.3rem;
+    margin-top: 0.6rem;
+    border-radius: 6px;
+    color: #7d6003;
+
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+}
+
+.nav-link:hover{
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+    color: #fcda69;
+    text-shadow: 2px 2px 4px #e5b005;
+}
+
+.yappachino {
+    text-align: left;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+td img{
+    width: 100px;
+    height: 120px;
+}
+
+tr {
+    padding: 2rem;
+}
+td {
+    font-weight: bold;
+    text-align: center;
+    color: #af8704;
+}
+
+table, td, th {
+    padding: 10px;
+    border: 1px solid #810000;
+    table-layout: fixed;
+}
+
+.sinlogo {
+    width: 70px;
+    height: 70px;
+}
+
+.yt {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin: auto;
+
+    background-color: #1f1f1f;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 80%;
+    margin-bottom: 2em;
+    border-radius: 10px;
+}
+
+footer {
+    padding: 1em;
+    color: #fff;
+    margin: auto;
+    width: 80%;
+    margin-top: 1em;
+    border: 2px solid #1f1f1f;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+footer li {
+    margin: 2rem;
 }
