@@ -303,7 +303,7 @@ p label {
 .ingameimg {
     display: block;
     margin: auto;
-    width: 900px;
+    width: 50rem;
 }
 
 a {
@@ -312,4 +312,9 @@ a {
     list-style: none;
     transition: ease-in-out;
     transition-duration: 0.2s;
+}
+
+
+.acenter {
+    text-align: center;;
 }
