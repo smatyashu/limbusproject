@@ -272,3 +272,12 @@ input[type="submit"]:hover {
 p label {
     font-size: 20px;
 }
+
+.feedbackimg {
+    width: 70%;
+    height: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    border: 1px solid #640000;
+    border-radius: 3px;
+}
