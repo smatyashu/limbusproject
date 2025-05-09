@@ -167,7 +167,7 @@ footer li {
 }
 
 .donimg{
-    margin-top: 0.5rem;
+    margin-top: 2rem;
     display: grid;
     justify-content: center;
     justify-items: center;
@@ -280,4 +280,10 @@ p label {
     margin-top: 2rem;
     border: 1px solid #640000;
     border-radius: 3px;
+}
+
+.smallimg {
+    width: 140px;
+    height: 216px;
+    margin-bottom: 1rem;
 }
